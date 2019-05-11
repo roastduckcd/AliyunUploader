@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2250A9CD61C57F1F8C14C6A0 /* libPods-AliyunUploader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1834BDCE7485B131753CEB69 /* libPods-AliyunUploader.a */; };
+		49EC74E11D3302255C2A7D35 /* libPods-AliyunUploaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7A696E75D724FC591C3644 /* libPods-AliyunUploaderTests.a */; };
+		6103DB5B2282B25E0028BBD5 /* NSDate+RDDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6103DB5A2282B25E0028BBD5 /* NSDate+RDDate.m */; };
+		6103DB632282B34C0028BBD5 /* AliyunUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6103DB622282B34C0028BBD5 /* AliyunUploaderTests.m */; };
+		6103DB6C2282DB4D0028BBD5 /* NSString+HASH.m in Sources */ = {isa = PBXBuildFile; fileRef = 6103DB6B2282DB4D0028BBD5 /* NSString+HASH.m */; };
+		610D67A12273639A00B40653 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 610D67A02273639A00B40653 /* AppDelegate.m */; };
+		610D67A42273639A00B40653 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 610D67A32273639A00B40653 /* ViewController.m */; };
+		610D67A62273639B00B40653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 610D67A52273639B00B40653 /* Assets.xcassets */; };
+		610D67A92273639B00B40653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 610D67A72273639B00B40653 /* Main.storyboard */; };
+		610D67AC2273639B00B40653 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 610D67AB2273639B00B40653 /* main.m */; };
+		611C82A222845E9500C4488D /* NSDictionary+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = 611C82A122845E9500C4488D /* NSDictionary+URL.m */; };
+		611EAB47227389C100931959 /* RDAliNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 611EAB46227389C100931959 /* RDAliNetWork.m */; };
+		61360D532282AFD000B273F0 /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61360D522282AFD000B273F0 /* HeaderModel.m */; };
+		617B20DA2285D86D00486226 /* RDAliCommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 617B20D92285D86D00486226 /* RDAliCommonUtil.m */; };
+		617B20DD2285E06900486226 /* RDAliManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 617B20DC2285E06900486226 /* RDAliManager.m */; };
+		619E1C8822864C0900BCD18A /* RDAliAssumeRoleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 619E1C8722864C0900BCD18A /* RDAliAssumeRoleModel.m */; };
+		61CF6E2A2285E4C000474B6B /* RDAliCommonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CF6E292285E4C000474B6B /* RDAliCommonModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6103DB652282B34C0028BBD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 610D67942273639A00B40653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 610D679B2273639A00B40653;
+			remoteInfo = AliyunUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1834BDCE7485B131753CEB69 /* libPods-AliyunUploader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunUploader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6103DB592282B25E0028BBD5 /* NSDate+RDDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+RDDate.h"; sourceTree = "<group>"; };
+		6103DB5A2282B25E0028BBD5 /* NSDate+RDDate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RDDate.m"; sourceTree = "<group>"; };
+		6103DB602282B34C0028BBD5 /* AliyunUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AliyunUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6103DB622282B34C0028BBD5 /* AliyunUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AliyunUploaderTests.m; sourceTree = "<group>"; };
+		6103DB642282B34C0028BBD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6103DB6A2282DB4D0028BBD5 /* NSString+HASH.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HASH.h"; sourceTree = "<group>"; };
+		6103DB6B2282DB4D0028BBD5 /* NSString+HASH.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HASH.m"; sourceTree = "<group>"; };
+		610D679C2273639A00B40653 /* AliyunUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliyunUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		610D679F2273639A00B40653 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		610D67A02273639A00B40653 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		610D67A22273639A00B40653 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		610D67A32273639A00B40653 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		610D67A52273639B00B40653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610D67A82273639B00B40653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		610D67AA2273639B00B40653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		610D67AB2273639B00B40653 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		610D67AD2273639B00B40653 /* AliyunUploader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AliyunUploader.entitlements; sourceTree = "<group>"; };
+		611C82A022845E9500C4488D /* NSDictionary+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+URL.h"; sourceTree = "<group>"; };
+		611C82A122845E9500C4488D /* NSDictionary+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+URL.m"; sourceTree = "<group>"; };
+		611EAB45227389C100931959 /* RDAliNetWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAliNetWork.h; sourceTree = "<group>"; };
+		611EAB46227389C100931959 /* RDAliNetWork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAliNetWork.m; sourceTree = "<group>"; };
+		61360D512282AFD000B273F0 /* HeaderModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
+		61360D522282AFD000B273F0 /* HeaderModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
+		617B20D82285D86D00486226 /* RDAliCommonUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAliCommonUtil.h; sourceTree = "<group>"; };
+		617B20D92285D86D00486226 /* RDAliCommonUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAliCommonUtil.m; sourceTree = "<group>"; };
+		617B20DB2285E06900486226 /* RDAliManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAliManager.h; sourceTree = "<group>"; };
+		617B20DC2285E06900486226 /* RDAliManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAliManager.m; sourceTree = "<group>"; };
+		619E1C8622864C0900BCD18A /* RDAliAssumeRoleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAliAssumeRoleModel.h; sourceTree = "<group>"; };
+		619E1C8722864C0900BCD18A /* RDAliAssumeRoleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAliAssumeRoleModel.m; sourceTree = "<group>"; };
+		61CF6E282285E4C000474B6B /* RDAliCommonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAliCommonModel.h; sourceTree = "<group>"; };
+		61CF6E292285E4C000474B6B /* RDAliCommonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAliCommonModel.m; sourceTree = "<group>"; };
+		63AFFBE829B1463DC9A461B6 /* Pods-AliyunUploader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunUploader.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunUploader/Pods-AliyunUploader.release.xcconfig"; sourceTree = "<group>"; };
+		9B7A696E75D724FC591C3644 /* libPods-AliyunUploaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AliyunUploaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD964F72E2EF67E3A11A9404 /* Pods-AliyunUploaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunUploaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunUploaderTests/Pods-AliyunUploaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD253FAB55B2222ECCB2FD1D /* Pods-AliyunUploader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunUploader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunUploader/Pods-AliyunUploader.debug.xcconfig"; sourceTree = "<group>"; };
+		EB45CDCD4B75D60A937A335E /* Pods-AliyunUploaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AliyunUploaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AliyunUploaderTests/Pods-AliyunUploaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6103DB5D2282B34C0028BBD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49EC74E11D3302255C2A7D35 /* libPods-AliyunUploaderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610D67992273639A00B40653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2250A9CD61C57F1F8C14C6A0 /* libPods-AliyunUploader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578D345158A9FC70DF9EAAD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1834BDCE7485B131753CEB69 /* libPods-AliyunUploader.a */,
+				9B7A696E75D724FC591C3644 /* libPods-AliyunUploaderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6103DB612282B34C0028BBD5 /* AliyunUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				6103DB622282B34C0028BBD5 /* AliyunUploaderTests.m */,
+				6103DB642282B34C0028BBD5 /* Info.plist */,
+			);
+			path = AliyunUploaderTests;
+			sourceTree = "<group>";
+		};
+		610D67932273639A00B40653 = {
+			isa = PBXGroup;
+			children = (
+				610D679E2273639A00B40653 /* AliyunUploader */,
+				6103DB612282B34C0028BBD5 /* AliyunUploaderTests */,
+				610D679D2273639A00B40653 /* Products */,
+				83489E7D7780CBBEA29F23C7 /* Pods */,
+				578D345158A9FC70DF9EAAD9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		610D679D2273639A00B40653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				610D679C2273639A00B40653 /* AliyunUploader.app */,
+				6103DB602282B34C0028BBD5 /* AliyunUploaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		610D679E2273639A00B40653 /* AliyunUploader */ = {
+			isa = PBXGroup;
+			children = (
+				610D679F2273639A00B40653 /* AppDelegate.h */,
+				610D67A02273639A00B40653 /* AppDelegate.m */,
+				610D67A22273639A00B40653 /* ViewController.h */,
+				610D67A32273639A00B40653 /* ViewController.m */,
+				617B20DB2285E06900486226 /* RDAliManager.h */,
+				617B20DC2285E06900486226 /* RDAliManager.m */,
+				611EAB45227389C100931959 /* RDAliNetWork.h */,
+				611EAB46227389C100931959 /* RDAliNetWork.m */,
+				61360D512282AFD000B273F0 /* HeaderModel.h */,
+				61360D522282AFD000B273F0 /* HeaderModel.m */,
+				61CF6E282285E4C000474B6B /* RDAliCommonModel.h */,
+				61CF6E292285E4C000474B6B /* RDAliCommonModel.m */,
+				619E1C8622864C0900BCD18A /* RDAliAssumeRoleModel.h */,
+				619E1C8722864C0900BCD18A /* RDAliAssumeRoleModel.m */,
+				617B20D82285D86D00486226 /* RDAliCommonUtil.h */,
+				617B20D92285D86D00486226 /* RDAliCommonUtil.m */,
+				6103DB592282B25E0028BBD5 /* NSDate+RDDate.h */,
+				6103DB5A2282B25E0028BBD5 /* NSDate+RDDate.m */,
+				6103DB6A2282DB4D0028BBD5 /* NSString+HASH.h */,
+				6103DB6B2282DB4D0028BBD5 /* NSString+HASH.m */,
+				611C82A022845E9500C4488D /* NSDictionary+URL.h */,
+				611C82A122845E9500C4488D /* NSDictionary+URL.m */,
+				610D67A52273639B00B40653 /* Assets.xcassets */,
+				610D67A72273639B00B40653 /* Main.storyboard */,
+				610D67AA2273639B00B40653 /* Info.plist */,
+				610D67AB2273639B00B40653 /* main.m */,
+				610D67AD2273639B00B40653 /* AliyunUploader.entitlements */,
+			);
+			path = AliyunUploader;
+			sourceTree = "<group>";
+		};
+		83489E7D7780CBBEA29F23C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD253FAB55B2222ECCB2FD1D /* Pods-AliyunUploader.debug.xcconfig */,
+				63AFFBE829B1463DC9A461B6 /* Pods-AliyunUploader.release.xcconfig */,
+				EB45CDCD4B75D60A937A335E /* Pods-AliyunUploaderTests.debug.xcconfig */,
+				BD964F72E2EF67E3A11A9404 /* Pods-AliyunUploaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6103DB5F2282B34C0028BBD5 /* AliyunUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6103DB672282B34C0028BBD5 /* Build configuration list for PBXNativeTarget "AliyunUploaderTests" */;
+			buildPhases = (
+				2BC4B2FF3AD4ABF0A7B87A73 /* [CP] Check Pods Manifest.lock */,
+				6103DB5C2282B34C0028BBD5 /* Sources */,
+				6103DB5D2282B34C0028BBD5 /* Frameworks */,
+				6103DB5E2282B34C0028BBD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6103DB662282B34C0028BBD5 /* PBXTargetDependency */,
+			);
+			name = AliyunUploaderTests;
+			productName = AliyunUploaderTests;
+			productReference = 6103DB602282B34C0028BBD5 /* AliyunUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		610D679B2273639A00B40653 /* AliyunUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610D67B02273639B00B40653 /* Build configuration list for PBXNativeTarget "AliyunUploader" */;
+			buildPhases = (
+				DEE0F821511B833D72CEC832 /* [CP] Check Pods Manifest.lock */,
+				610D67982273639A00B40653 /* Sources */,
+				610D67992273639A00B40653 /* Frameworks */,
+				610D679A2273639A00B40653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliyunUploader;
+			productName = AliyunUploader;
+			productReference = 610D679C2273639A00B40653 /* AliyunUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		610D67942273639A00B40653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RDAli;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yangsong;
+				TargetAttributes = {
+					6103DB5F2282B34C0028BBD5 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 610D679B2273639A00B40653;
+					};
+					610D679B2273639A00B40653 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 610D67972273639A00B40653 /* Build configuration list for PBXProject "AliyunUploader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 610D67932273639A00B40653;
+			productRefGroup = 610D679D2273639A00B40653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				610D679B2273639A00B40653 /* AliyunUploader */,
+				6103DB5F2282B34C0028BBD5 /* AliyunUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6103DB5E2282B34C0028BBD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610D679A2273639A00B40653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610D67A62273639B00B40653 /* Assets.xcassets in Resources */,
+				610D67A92273639B00B40653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BC4B2FF3AD4ABF0A7B87A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliyunUploaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEE0F821511B833D72CEC832 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AliyunUploader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6103DB5C2282B34C0028BBD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6103DB632282B34C0028BBD5 /* AliyunUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		610D67982273639A00B40653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617B20DD2285E06900486226 /* RDAliManager.m in Sources */,
+				617B20DA2285D86D00486226 /* RDAliCommonUtil.m in Sources */,
+				619E1C8822864C0900BCD18A /* RDAliAssumeRoleModel.m in Sources */,
+				610D67A42273639A00B40653 /* ViewController.m in Sources */,
+				61CF6E2A2285E4C000474B6B /* RDAliCommonModel.m in Sources */,
+				611EAB47227389C100931959 /* RDAliNetWork.m in Sources */,
+				611C82A222845E9500C4488D /* NSDictionary+URL.m in Sources */,
+				6103DB6C2282DB4D0028BBD5 /* NSString+HASH.m in Sources */,
+				6103DB5B2282B25E0028BBD5 /* NSDate+RDDate.m in Sources */,
+				610D67AC2273639B00B40653 /* main.m in Sources */,
+				61360D532282AFD000B273F0 /* HeaderModel.m in Sources */,
+				610D67A12273639A00B40653 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6103DB662282B34C0028BBD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 610D679B2273639A00B40653 /* AliyunUploader */;
+			targetProxy = 6103DB652282B34C0028BBD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		610D67A72273639B00B40653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				610D67A82273639B00B40653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6103DB682282B34C0028BBD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB45CDCD4B75D60A937A335E /* Pods-AliyunUploaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FBVYKESUN4;
+				INFOPLIST_FILE = AliyunUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangsong.AliyunUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliyunUploader.app/Contents/MacOS/AliyunUploader";
+			};
+			name = Debug;
+		};
+		6103DB692282B34C0028BBD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD964F72E2EF67E3A11A9404 /* Pods-AliyunUploaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FBVYKESUN4;
+				INFOPLIST_FILE = AliyunUploaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangsong.AliyunUploaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AliyunUploader.app/Contents/MacOS/AliyunUploader";
+			};
+			name = Release;
+		};
+		610D67AE2273639B00B40653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		610D67AF2273639B00B40653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		610D67B12273639B00B40653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD253FAB55B2222ECCB2FD1D /* Pods-AliyunUploader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FBVYKESUN4;
+				INFOPLIST_FILE = AliyunUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangsong.AliyunUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		610D67B22273639B00B40653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63AFFBE829B1463DC9A461B6 /* Pods-AliyunUploader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FBVYKESUN4;
+				INFOPLIST_FILE = AliyunUploader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yangsong.AliyunUploader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6103DB672282B34C0028BBD5 /* Build configuration list for PBXNativeTarget "AliyunUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6103DB682282B34C0028BBD5 /* Debug */,
+				6103DB692282B34C0028BBD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610D67972273639A00B40653 /* Build configuration list for PBXProject "AliyunUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610D67AE2273639B00B40653 /* Debug */,
+				610D67AF2273639B00B40653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		610D67B02273639B00B40653 /* Build configuration list for PBXNativeTarget "AliyunUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				610D67B12273639B00B40653 /* Debug */,
+				610D67B22273639B00B40653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 610D67942273639A00B40653 /* Project object */;
+}
